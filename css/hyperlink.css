@@ -1,0 +1,23 @@
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  background-color: darkcyan;
+}
+
+a {
+  color: pink;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: green;
+}
+
+a.not-underline {
+  text-decoration: none;
+}

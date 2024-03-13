@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Demonstration</title>
+</head>
+<body>
+
+    <header>
+        <h1>Header Section</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h2>Main Article</h2>
+        <p>This is the main content of the article...</p>
+        <p>More content...</p>
+    </article>
+
+    <section>
+        <h2>Embedded Audio and Video</h2>
+
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+
+        <video width="400" height="300" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section>
+        <h2>Embedded Content</h2>
+
+        <embed src="embedded-content.swf" type="application/x-shockwave-flash" width="400" height="300">
+    </section>
+
+    <section>
+        <h2>Data List</h2>
+
+        <form action="#">
+            <label for="browser">Choose a browser:</label>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Edge">
+                <option value="Opera">
+            </datalist>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section>
+        <h2>Bidirectional Isolation (bdi)</h2>
+
+        <p>This price is in <bdi>$1000</bdi> including tax.</p>
+    </section>
+
+    <section>
+        <h2>Output and Keygen</h2>
+
+        <form>
+            <label for="number1">Enter a number:</label>
+            <input type="number" id="number1" name="number1" required>
+            
+            <label for="number2">Enter another number:</label>
+            <input type="number" id="number2" name="number2" required>
+
+            <output name="result" for="number1 number2"></output>
+
+            <br>
+
+            <keygen name="encryptionKey" challenge="randomChallenge">
+        </form>
+    </section>
+
+    <footer>
+        <p>Footer Section &copy; 2024</p>
+    </footer>
+
+</body>
+</html>
