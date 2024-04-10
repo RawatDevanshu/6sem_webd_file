@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head></head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Basic Information</legend>
+        <label for="name">Full name:</label>
+        <input type="text" id="name" /><br /><br />
+
+        <label for="dob">Birth Date:</label>
+        <input type="text" id="dob" name="dob" /><br /><br />
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="gender" name="gender" value="female" />
+        <label for="female">Female</label><br /><br />
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" /><br /><br />
+
+        <label for="pno">Phone number:</label>
+        <input type="text" id="pno" name="pno" /><br />
+      </fieldset>
+      <br />
+
+      <fieldset>
+        <legend>Extra Information</legend>
+        <label for="interests">Interests:</label>
+        <input type="checkbox" id="interests" name="interests" value="books" />
+        <label for="books">Books</label>
+        <input type="checkbox" id="interests" name="interests" value="movies" />
+        <label for="movies">Movies</label>
+        <input
+          type="checkbox"
+          id="interests"
+          name="interests"
+          value="videogames"
+        />
+        <label for="videogames">Videogames</label><br /><br />
+
+        <label for="favcol">Favourite Colour:</label>
+        <input type="color" id="favcol" name="favcol" /><br />
+      </fieldset>
+      <br />
+      <button>Send data</button>
+      <button>Reset form</button>
+    </form>
+  </body>
+</html>
