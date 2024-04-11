@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh auto;
+  border: 2px solid;
+  width: 40vw;
+  height: 40vh;
+  transition: ease-out 1s;
+}
+
+.box:hover {
+  width: 90vw;
+  height: 70vh;
+  border-radius: 30px;
+  font-size: 30px;
+}

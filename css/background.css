@@ -1,0 +1,19 @@
+body {
+  background: url("/assets/about-bg.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  background: #f0f0f0;
+  border: 3px solid;
+  border-radius: 20px;
+  width: 60vw;
+  padding: 20px;
+  height: 100vh;
+  margin: 10vh auto;
+}
+
+p {
+  font-size: 30px;
+}
